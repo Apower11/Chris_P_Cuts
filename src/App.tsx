@@ -10,14 +10,18 @@ function App() {
   return (
     <div className="App">
         <div className="landing-image">
-        <Menu burgerButtonClassName={ "bm-burger-button" }>
+        <Menu className={ "menu" } burgerButtonClassName={ "bm-burger-button" }>
         <a className="menu-item" href="#">About Us</a>
         <a className="menu-item" href="#">Gallery</a>
         <a className="menu-item" href="#">Services</a>
         <a className="menu-item" href="#">Testimonials</a>
         <a className="menu-item" href="#">Contact Us</a>
-      </Menu>
+        </Menu>
           <Navbar />
+          <div className="landing-image__content">
+            <h1>Welcome to Chris P Cuts</h1>
+            <button>Book Now</button>
+          </div>
         </div>
     </div>
   );
