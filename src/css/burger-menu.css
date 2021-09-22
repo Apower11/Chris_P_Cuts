@@ -1,3 +1,7 @@
+.menu {
+  display: none;
+}
+
 .bm-burger-button {
   position: fixed;
   width: 36px;
@@ -84,6 +88,9 @@
 
 @media (max-width: 900px) {
   .bm-burger-button {
+    display: block;
+  }
+  .menu {
     display: block;
   }
 }
