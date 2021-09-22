@@ -1,7 +1,14 @@
 function Navbar() {
     return (
-        <div>
-            
+        <div className='navbar'>
+            <h1>Chris P Cuts</h1>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </div>
     )
 }

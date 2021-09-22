@@ -13,4 +13,73 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
+
+.navbar {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  padding: 0;
+}
+
+.navbar h1 {
+  font-family: 'Dancing Script', cursive;
+  margin: 0;
+  color: white;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 50px;
+  margin-top: 4.48vh;
+  margin-left: 2.1961932650073206vw;
+}
+
+.navbar ul {
+  color: #A09C9C;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: flex-end;
+  margin-top: 4.48vh;
+  margin-left: 8.857979502196192vw;
+  margin-bottom: none;
+  height: 60px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar ul li:first-of-type {
+  margin: 0;
+}
+
+.navbar ul li {
+  font-size: 2.1961932650073206vw;
+  margin-left: 1.9765739385065886vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar ul li a {
+  color: #A09C9C;
+  text-decoration: none;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.navbar ul li a:hover {
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    display: none;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
