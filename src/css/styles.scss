@@ -12,3 +12,54 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
+
+.navbar {
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    padding: 0;
+    h1 {
+        font-family: 'Dancing Script', cursive;
+        margin: 0;
+        color: white;
+        align-self: flex-start;
+        font-size: 50px;
+        margin-top: 4.48vh;
+        margin-left: 2.1961932650073206vw;
+    }
+    ul {
+        color: #A09C9C;
+        list-style-type: none;
+        display: flex;
+        justify-self: flex-end;
+        margin-top: 4.48vh;
+        margin-left: 8.857979502196192vw;
+        margin-bottom: none;
+        height: 60px;
+        font-family: 'Roboto', sans-serif;
+        li:first-of-type {
+            margin: 0;
+        }
+        li {
+            font-size: 2.1961932650073206vw;
+            margin-left: 1.9765739385065886vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+                color: #A09C9C;
+                text-decoration: none;
+                transition: 0.5s all;
+            }
+            a:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+@media(max-width: 900px) {
+    .navbar {
+        display: none;
+    }
+}
